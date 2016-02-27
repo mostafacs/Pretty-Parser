@@ -135,8 +135,3 @@ def json_decode(string):
                     value+=char
     return result
 
-
-#print stro
-print json_decode('{55:"fff"}')
-#print json.dumps(json_decode(ko))
-#print(json.dumps(json_decode(data4), indent=4))
