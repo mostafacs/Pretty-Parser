@@ -12,6 +12,8 @@ def decorateString(in_str):
         else:
             clear_str = int(clear_str)
         return clear_str
+
+
 def json_decode(string):
     data = string[1: len(string)-1]
     item_type = 'dict'
